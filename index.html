@@ -4,19 +4,11 @@
     <meta charset="utf-8">
     <meta name="description" content="I'm Mike, a freelance web designer in Atlanta. Hire me to build your website.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="favicon.jpg">
-    
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="./css/et-line.css">
-    
-    <script src="./js/jquery-2.1.0.js"></script>
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/blocs.js"></script>
-    <script src="./js/jquery.touchSwipe.js"></script>
-    <script src="./js/gmaps.js"></script>
-
+    <link rel="icon" type="image/png" href="favicon.jpg">    
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap-min.css">
+    <link rel="preload" fetchpriority="high" as="image" href="img/atlanta made sign.webp" type="image/webp">
+    <link rel="stylesheet" type="text/css" href="style-min.css">
+    <link rel="stylesheet" type="text/css" href="./css/et-line-min.css">
     <title>Freelance Web Designer Atlanta | Mike</title>
     
 <!-- Analytics -->
@@ -25,6 +17,11 @@
     
 </head>
 <body>
+    <script src="./js/jquery-2.1.0-min.js"></script>    
+    <script src="./js/blocs-min.js"></script>
+    <script src="./js/jquery.touchSwipe-min.js"></script>
+    <script src="./js/gmaps-min.js"></script>
+    <script src="./js/bootstrap-min.js"></script>
 <!-- Main container -->
 <div class="page-container">
     
@@ -33,7 +30,7 @@
     <div class="container bloc-sm">
         <nav class="navbar row">
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.html"><img src="img/atlanta%20web%20design%20logo.png" alt="Freelance Web Designer Atlanta" height="40" /></a>
+                <a class="navbar-brand" href="index.html"><img src="img/atlanta%20web%20design%20logo.png"  alt="Freelance Web Designer Atlanta" width="386px" height="72px" /></a>
                 <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
                     <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                 </button>
@@ -61,7 +58,7 @@
     <div class="container bloc-lg">
         <div class="row tight-width-whitespace">
             <div class="col-sm-12">
-                <img src="img/atlanta%20web%20designer%20mike.png" class="center-block image-resize-mode" width="100" alt="Freelance Web Designer Atlanta - Mike" />
+                <img src="img/atlanta-web-designer-mike.webp" width="500px" height="512px" class="center-block image-resize-mode" srcset="img/atlanta-web-designer-mike-200_x_205.webp 200w, img/atlanta-web-designer-mike-500_x_512.webp 500w" sizes="(min-width: 640px) 570px, 93.75vw" alt="Freelance Web Designer Atlanta - Mike" />
                 <h1 class="text-center hero-bloc-text tc-white ">
                     I'm Mike, a Freelance Web Designer in Atlanta.
                 </h1>
@@ -79,7 +76,7 @@
     <div class="container bloc-md">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <img alt="Freelance Web Designer Atlanta - Services" src="img/title.png" />
+                <img alt="Freelance Web Designer Atlanta - Services" width="1062px" height="116px" src="img/title.png" />
             </div>
         </div>
         <div class="row voffset-lg med-width-whitespace">
@@ -119,7 +116,7 @@
         </div>
         <div class="row voffset-lg voffset">
             <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-                <img alt="Web Agency - Testimonial" src="img/quote.png" />
+                <img alt="Web Agency - Testimonial" width="580px" height="153px" src="img/quote.png" />
             </div>
         </div>
     </div>
@@ -148,12 +145,12 @@
     <div class="container bloc-lg">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <img alt="Web Design Portfolio - Atlanta" src="img/title2.png" />
+                <img alt="Web Design Portfolio - Atlanta" width="1018px" height="96px" src="img/title2.png" />
             </div>
         </div>
         <div class="row tight-width-whitespace portfolio-row">
             <div class="col-sm-6">
-                <a href="#" data-lightbox="img/11.jpg" data-gallery-id="gallery-1" data-caption="Website for Atlanta's Premiere dog salon" data-frame="snapshot-lb"><img src="img/11.jpg" class="img-responsive portfolio-thumb" alt="Website for Atlanta's Premiere Dog Sitters" /></a>
+                <a href="#" data-lightbox="img/dog.webp" data-gallery-id="gallery-1" data-caption="Website for Atlanta's Premiere dog salon" data-frame="snapshot-lb"><img src="img/dog.webp" width="570px" height="570px" class="img-responsive portfolio-thumb" srcset="img/dog-270.webp 270w, img/dog-570.webp 570w, img/dog-900.webp 900w, img/dog-1140.webp 1140w" sizes="(min-width: 780px) 270px, (min-width: 640px) 570px, 93.75vw" alt="Website for Atlanta's Premiere Dog Sitters" /></a>
                 <h3 class="mg-md text-center">
                     Website for Atlanta&rsquo;s premiere Dog Sitters
                 </h3>
@@ -162,7 +159,7 @@
                 </p>
             </div>
             <div class="col-sm-6">
-                <a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Web redesign for the best cupcakes in Atlanta" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Web redesign for the best Atlanta cupcakes" /></a>
+                <a href="#" data-lightbox="img/cupcakes.webp" data-gallery-id="gallery-1" data-caption="Web redesign for the best cupcakes in Atlanta" data-frame="snapshot-lb"><img src="img/cupcakes.webg" width="570px" height="570px" class="img-responsive portfolio-thumb" srcset="img/cupcakes-270.webp 270w, img/cupcakes-570.webp 570w, img/cupcakes-900.webp 900w, img/cupcakes-1140.webp 1140w" sizes="(min-width: 780px) 270px, (min-width: 640px) 570px, 93.75vw" alt="Web redesign for the best Atlanta cupcakes" /></a>
                 <h3 class="mg-md text-center">
                     Web redesign for the best Atlanta cupcakes
                 </h3>
@@ -173,7 +170,7 @@
         </div>
         <div class="row tight-width-whitespace portfolio-row">
             <div class="col-sm-6">
-                <a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="New logo and website for Atlanta's best tech gear shop" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="New logo and website for Atlanta's best tech gear shop" /></a>
+                <a href="#" data-lightbox="img/gadgets.webp" data-gallery-id="gallery-1" data-caption="New logo and website for Atlanta's best tech gear shop" data-frame="snapshot-lb"><img src="img/gadgets.webp" width="570px" height="570px" class="img-responsive portfolio-thumb" srcset="img/gadgets-270.webp 270w, img/gadgets-570.webp 570w, img/gadgets-900.webp 900w, img/gadgets-1140.webp 1140w" sizes="(min-width: 780px) 270px, (min-width: 640px) 570px, 93.75vw" alt="New logo and website for Atlanta's best tech gear shop" /></a>
                 <h3 class="mg-md text-center">
                     New logo and website for Atl + Gear - Atlanta&rsquo;s best tech gear shop
                 </h3>
@@ -182,7 +179,7 @@
                 </p>
             </div>
             <div class="col-sm-6">
-                <a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Atlanta's legal website generates 30% more clients after web redesign" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="Atlanta's legal website generates 30% more clients after web redesign" /></a>
+                <a href="#" data-lightbox="img/passenger.webp" data-gallery-id="gallery-1" data-caption="Atlanta's legal website generates 30% more clients after web redesign" data-frame="snapshot-lb"><img src="img/passenger.webp" width="570px" height="570px" class="img-responsive portfolio-thumb" srcset="img/passenger-270.webp 270w, img/passenger-570.webp 570w, img/passenger-900.webp 900w, img/passenger-1140.webp 1140w" sizes="(min-width: 780px) 270px, (min-width: 640px) 570px, 93.75vw" alt="Atlanta's legal website generates 30% more clients after web redesign" /></a>
                 <h3 class="mg-md text-center">
                     Atlanta&rsquo;s legal new website - Generating 30% more law clients with a refresh
                 </h3>
@@ -221,27 +218,39 @@
                 <div class="row row-no-gutters social">
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+                            <a class="social" aria-label="Visit us on Twitter" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+                            <a class="social" aria-label="Visit us on Facebook" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+                            <a class="social" aria-label="Visit us on dribbble" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="text-center">
-                            <a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+                            <a class="social" aria-label="Visit us on Instagram" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+					<div class="col-sm-12">
+						Partners
+							<ul>
+								<li><a href="car.com">car.com</a></li>
+								<li><a href="pizza.com">pizza.com</a></li>
+								<li><a href="myroof.com">myroof.com</a></li>
+								<li><a href="realestateseo.com">realestateseo.com</a></li>
+							</ul>		
+					</div>
+					
+				</div>
     </div>
 </div>
 <!-- Footer - bloc-8 END -->
