@@ -333,8 +333,10 @@ a:hover {
 }
 
 .nav > li a:hover,
+.nav > li a,
 .nav > li a:focus {
     background: transparent;
+    color:pink;
 }
 
 .navbar-toggle {
